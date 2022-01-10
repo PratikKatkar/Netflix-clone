@@ -1,7 +1,7 @@
 
-import Tabs from ".Tabs";
 import  {useState} from 'react';
-import { tabLabels } from "./Constants";
+import  tabLabels  from "./Constants";
+import Tabs from './Tabs';
 const TabComponent = () => {
 
     const [activeTab, setActiveTab] = useState(tabLabels.CANCEL_AT_ANY_TIME);

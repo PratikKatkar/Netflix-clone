@@ -1,7 +1,9 @@
 
 import react from 'react';
-import {BrowserRouter, Routes, Route} from "react-router-dom"
+import {BrowserRouter,  Route} from "react-router-dom"
+import {Routes} from "react-router-dom"
 import './App.css';
+import Footer from './Componunts/Header/Footer/Footer';
 import Home from './Pages/Home';
 import NetflixShow from './Pages/NetflixShow';
 
@@ -11,9 +13,10 @@ function App() {
     <div className="App"> 
     <Routes>
 
-    <Route path="/" element={<Home></Home>}></Route>
+    <Route exact path="/" element={<Home></Home>}></Route>
     <Route path="/netflixshow" element={<NetflixShow></NetflixShow>}></Route>
     </Routes>
+    <Footer></Footer>
     </div>
     
     </BrowserRouter>

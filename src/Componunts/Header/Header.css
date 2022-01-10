@@ -16,7 +16,6 @@ p {
 
 img {
   width: 100%;
-
 }
 
 .showcase {
@@ -115,10 +114,8 @@ img {
 }
 
 .btn-xl {
-    background-color:#e50914;
-  font-size: 2rem;
-  padding: 1rem ;
-  border-radius: 14px;
+  font-size: 3rem;
+  padding: 1.5rem 2.1rem;
   text-transform: uppercase;
 }
 
