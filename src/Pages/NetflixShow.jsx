@@ -9,9 +9,15 @@ const NetflixShow = () => {
             <Nav></Nav>
             <Bannar></Bannar>
         
-            <Row is isLargeRow title="NETFLIX ORIGINALS" fetchUrl={Api.fetchNetFlixOriginals}/> 
+            <Row  isLargeRow title="NETFLIX ORIGINALS" fetchUrl={Api.fetchNetFlixOriginals}/> 
             <Row title="Trending Now" fetchUrl={Api.fetchTrendign}/> 
             <Row title="Top Rated" fetchUrl={Api.fetchTopRated}/> 
+            <Row title="Comedy Movies " fetchUrl={Api.fetchRomanceMovies}/> 
+            <Row title="Comedy Movies " fetchUrl={Api.fetchRomanceMovies}/> 
+            <Row title="Comedy Movies " fetchUrl={Api.fetchRomanceMovies}/> 
+            <Row title="Comedy Movies " fetchUrl={Api.fetchRomanceMovies}/> 
+            <Row title="Comedy Movies " fetchUrl={Api.fetchRomanceMovies}/> 
+            <Row title="Comedy Movies " fetchUrl={Api.fetchRomanceMovies}/> 
             <Row title="Comedy Movies " fetchUrl={Api.fetchRomanceMovies}/> 
 
             

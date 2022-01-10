@@ -26,7 +26,7 @@ const Bannar = () => {
 
 
     return (
-       <header className='banner'  isActive={true}
+       <header className='banner' 
        style={{
            backgroundSize:"cover",
            backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path}")`,
@@ -45,7 +45,7 @@ const Bannar = () => {
               </div>
               <div>
               <h1 className="banner-description">
-                  {truncate(movie?.overview, 150)}
+                  {truncate(movie?.overview, 200)}
               </h1>
               </div>
             <div className="banner-fadeBottom">

@@ -3,7 +3,7 @@ import react from 'react';
 import {BrowserRouter,  Route} from "react-router-dom"
 import {Routes} from "react-router-dom"
 import './App.css';
-import Footer from './Componunts/Header/Footer/Footer';
+import Footer from './Componunts/Footer/Footer';
 import Home from './Pages/Home';
 import NetflixShow from './Pages/NetflixShow';
 

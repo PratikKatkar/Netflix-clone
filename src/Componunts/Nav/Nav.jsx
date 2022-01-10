@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import "./Nav.css"
 
 const Nav = () => {
-    const [ show, setShow] = useState(false);
+    const [show, setShow] = useState(false);
 
     const NavBarVisibility = () =>
     {
